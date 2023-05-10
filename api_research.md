@@ -8,7 +8,7 @@ A way to transfer data from a separate server or service (independent of the lan
 
 APIs are used to bring applications together to perform a function built upon data sharing and executing processes, leveraging existing code to speed up development time.
 
-![API Diagram](rest_api_diagram.png)
+![API Diagram](images/rest_api_diagram.png)
 
 ## Why are APIs so popular?
 
@@ -62,7 +62,7 @@ HTTP Requests contain three main parts: the request line itself, the headers and
 - **Headers:** Key/value pairs describing the request, e.g. content-type, date, encoding method.
 - **Body:** Optional Text, JSON, XML data sent to server
 
-![HTTP Request](HTTP_request.png)
+![HTTP Request](images/HTTP_request.png)
 
 ### Example Request
 
@@ -84,7 +84,7 @@ HTTP Responses contain three main parts: the response/ status line, the headers 
 - **Headers:** Key/value pairs describing the response similar to the request, e.g. content-type, encoding etc.
 - **Body:** Text, JSON, XML containing data requested by client
 
-![HTTP Response](HTTP_response.png)
+![HTTP Response](images/HTTP_response.png)
 
 ### Example Response
 
@@ -110,5 +110,5 @@ HTTP Responses contain three main parts: the response/ status line, the headers 
 
 Postman is an application with a user-friendly GUI used by developers to design, build and test their APIs. It is easy to use and enables users the control of every phase of their API lifecycle through simplifying each step of the processes, helping to create better APIs faster.
 
-![postman](response-screenshot.svg)
+![postman](images/response-screenshot.svg)
 *(Postman, 2023)*
